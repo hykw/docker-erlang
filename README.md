@@ -7,5 +7,5 @@
 ## How to build
 
 ```
-docker build -t erlang:20.1 .
+docker build -t hykw/erlang:20.1 .
 ```
