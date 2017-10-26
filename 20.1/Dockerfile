@@ -23,4 +23,5 @@ RUN \
   ./kerl list releases && \
   ./kerl build ${ERL_VER} build${ERL_VER} && \
   mkdir -p /usr/local/erl/${ERL_VER} && \
-  ./kerl install build${ERL_VER} /usr/local/erl/${ERL_VER}
+  ./kerl install build${ERL_VER} /usr/local/erl/${ERL_VER} && \
+  rm -rf ~/.kerl
